@@ -157,7 +157,7 @@
                                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Address</h4>
                                 <hr class="my-4" />
-                                <div class="small text-black-50">anonym</div>
+                                <div class="small text-black-50"><a id="address">anonym</a></div>
                             </div>
                         </div>
                     </div>
@@ -167,7 +167,7 @@
                                 <i class="fas fa-envelope text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4" />
-                                <div class="small text-black-50"><a href="#!">anonym</a></div>
+                                <div class="small text-black-50"><a id="email">anonym</a></div>
                             </div>
                         </div>
                     </div>
@@ -177,7 +177,7 @@
                                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Phone</h4>
                                 <hr class="my-4" />
-                                <div class="small text-black-50">anonym</div>
+                                <div class="small text-black-50"><a id="phone">anonym</a></div>
                             </div>
                         </div>
                     </div>
@@ -205,6 +205,15 @@
             var layer = layui.layer
             ,form = layui.form;
             
+            });
+            $('#address').on('click', function(){
+                layer.msg('China Jiangsu or Shanghai');
+            });
+            $('#email').on('click', function(){
+                layer.msg('anonym');
+            });
+            $('#phone').on('click', function(){
+                layer.msg('(+86) 1585 120 1720 for short');
             });
             $('#wechat').on('click', function(){
                 layer.msg('CUDGHF');
