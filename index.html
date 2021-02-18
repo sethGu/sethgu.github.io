@@ -21,17 +21,18 @@
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">sethGu Blog Index Page</a>
+            <div class="container navMain">
+                <a class="navbar-brand js-scroll-trigger language_content" href="#page-top">sethGu Blog Index Page</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
+                    Menu/菜单
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
+                    <ul class="navbar-nav ml-auto nav_content">
+                        <li class="nav-item nav-link" id="language_control">ENG/中文</li>
+                        <li class="nav-item language_content"><a class="nav-link js-scroll-trigger language_content_nav_content" href="#about">About</a></li>
+                        <li class="nav-item language_content"><a class="nav-link js-scroll-trigger language_content_nav_content" href="#projects">Projects</a></li>
+                        <li class="nav-item language_content"><a class="nav-link js-scroll-trigger language_content_nav_content" href="#signup">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -39,10 +40,10 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container d-flex h-100 align-items-center">
-                <div class="mx-auto text-center">
+                <div class="mx-auto text-center masthead_content">
                     <h1 class="mx-auto my-0 text-uppercase">sethGu</h1>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">A CS guy (Sagittarius). Love life, love tech, love freedom.</h2>
-                    <a class="btn btn-primary js-scroll-trigger" href="#about">Get Started</a>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5 language_content">A CS guy (Sagittarius). Love life, love tech, love freedom.</h2>
+                    <a class="btn btn-primary js-scroll-trigger language_content" href="#about">Get Started</a>
                 </div>
             </div>
         </header>
@@ -50,17 +51,16 @@
         <section class="about-section text-center" id="about">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h2 class="text-white mb-4">About Seth Gu</h2>
+                    <div class="col-lg-8 mx-auto about_content">
+                        <h2 class="text-white mb-4 language_content"><p class="language_content">About Seth Gu</p></h2>
                         <p class="text-white-50">
                             技术学习中文笔记，进入
                             <a href="https://blog.csdn.net/qq_39691372">CSDN个人页面</a><br>
                             
-                            Find more information on the personal blog
-                            <a href="http://106.54.206.86:80">page</a><br>
+                            <a class="language_content" href="http://106.54.206.86:80">Find more information on the personal blog page</a><br>
                             
-                            <a href="#projects">backgrounds</a><br>
-                            <a href="#contact">social platforms</a>
+                            <a class="language_content" href="#projects">backgrounds</a><br>
+                            <a class="language_content" href="#contact">social platforms</a>
                         </p>
                         <p class="text-white-50">
                             
@@ -78,20 +78,20 @@
                 <div class="row align-items-center no-gutters mb-4 mb-lg-5">
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="" /></div>
                     <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4>Education Background</h4>
+                        <div class="featured-text text-center text-lg-left education_contant">
+                            <h4 class="language_content">Education Background</h4>
                             <br>
-                            <h6>Bachelor degree in information technology</h6>
-                            <p class="text-black-50 mb-0">Queensland University of Technology (QUT)</p>
-                            <p class="text-black-50 mb-0">graduate in December 2018</p>
+                            <h6 class="language_content">Bachelor degree in information technology</h6>
+                            <p class="text-black-50 mb-0 language_content">Queensland University of Technology (QUT)</p>
+                            <p class="text-black-50 mb-0 language_content">graduate in December 2018</p>
                             <br>
-                            <h6>Master of Computer Science</h6>
-                            <p class="text-black-50 mb-0">The University of Quuensland (UQ)</p>
-                            <p class="text-black-50 mb-0">graduate in December 2020</p>
+                            <h6 class="language_content">Master of Computer Science</h6>
+                            <p class="text-black-50 mb-0 language_content">The University of Quuensland (UQ)</p>
+                            <p class="text-black-50 mb-0 language_content">graduate in December 2020</p>
                             <br>
-                            <h6>PhD. of Computer Science</h6>
-                            <p class="text-black-50 mb-0">Upcomming...</p>
-                            <p class="text-black-50 mb-0">Upcomming...</p>
+                            <h6 class="language_content">PhD. of Computer Science</h6>
+                            <p class="text-black-50 mb-0 language_content">Upcomming...</p>
+                            <p class="text-black-50 mb-0 language_content">Upcomming...</p>
                         </div>
                     </div>
                 </div>
@@ -101,16 +101,16 @@
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Research background</h4>
+                                <div class="project-text w-100 my-auto text-center text-lg-left research_content">
+                                    <h4 class="text-white language_content">Research background</h4>
                                     <br>
-                                    <h6 class="text-white-70">Smart Campus Project</h6>
-                                    <p class="text-white-50 mb-0">The University of Quuensland (UQ)</p>
-                                    <p class="text-white-50 mb-0">Supervised by <a href="https://researchers.uq.edu.au/researcher/22529">PeterWorthy</a></p>
+                                    <h6 class="text-white-70 language_content">Smart Campus Project</h6>
+                                    <p class="text-white-50 mb-0 language_content">The University of Quuensland (UQ)</p>
+                                    <a class="mb-0 language_content" href="https://researchers.uq.edu.au/researcher/22529">Supervised by PeterWorthy</a>
                                     <br>
-                                    <h6 class="text-white-70">Student Score Prediction</h6>
-                                    <p class="text-white-50 mb-0">Individual Ownership</p>
-                                    <p class="text-white-50 mb-0">Individual Research</p>
+                                    <h6 class="text-white-70 language_content">Student Score Prediction</h6>
+                                    <p class="text-white-50 mb-0 language_content">Individual Ownership</p>
+                                    <p class="text-white-50 mb-0 language_content">Individual Research</p>
                                     <hr class="d-none d-lg-block mb-0 ml-0" />
                                 </div>
                             </div>
@@ -123,16 +123,16 @@
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Tech Background</h4>
+                                <div class="project-text w-100 my-auto text-center text-lg-right tech_content">
+                                    <h4 class="text-white language_content">Tech Background</h4>
                                     <br>
-                                    <h6 class="text-white-70">Computer Science related</h6>
-                                    <p class="text-white-50 mb-0">Programming language: Python, Java, C#, R, Matlab</p>
-                                    <p class="text-white-50 mb-0">Algorithmic stuff, Information Retrieval, Cloud devlop</p>
+                                    <h6 class="text-white-70 language_content">Computer Science related</h6>
+                                    <p class="text-white-50 mb-0 language_content">Programming language: Python, Java, C#, R, Matlab</p>
+                                    <p class="text-white-50 mb-0 language_content">Algorithmic stuff, Information Retrieval, Cloud devlop</p>
                                     <br>
-                                    <h6 class="text-white-70">Artificial Intelligence related</h6>
-                                    <p class="text-white-50 mb-0">Machine Learning & Data Mining stuff</p>
-                                    <p class="text-white-50 mb-0">Deep learning stuff</p>
+                                    <h6 class="text-white-70 language_content">Artificial Intelligence related</h6>
+                                    <p class="text-white-50 mb-0 language_content">Machine Learning & Data Mining stuff</p>
+                                    <p class="text-white-50 mb-0 language_content">Deep learning stuff</p>
                                     <hr class="d-none d-lg-block mb-0 mr-0" />
                                 </div>
                             </div>
@@ -162,31 +162,31 @@
                 <div class="row">
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
-                            <div class="card-body text-center">
+                            <div class="card-body text-center address_content">
                                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Address</h4>
+                                <h4 class="text-uppercase m-0 language_content">Address</h4>
                                 <hr class="my-4" />
-                                <div class="small text-black-50"><a id="address">anonym</a></div>
+                                <a id="address" class="small language_content">anonym</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
-                            <div class="card-body text-center">
+                            <div class="card-body text-center email_content">
                                 <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Email</h4>
+                                <h4 class="text-uppercase m-0 language_content">Email</h4>
                                 <hr class="my-4" />
-                                <div class="small text-black-50"><a id="email">anonym</a></div>
+                                <a id="email" class="small language_content">anonym</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
-                            <div class="card-body text-center">
+                            <div class="card-body text-center phone_content">
                                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Phone</h4>
+                                <h4 class="text-uppercase m-0 language_content">Phone</h4>
                                 <hr class="my-4" />
-                                <div class="small text-black-50"><a id="phone">anonym</a></div>
+                                <a id="phone" class="small language_content">anonym</a>
                             </div>
                         </div>
                     </div>
@@ -228,6 +228,147 @@
                 layer.msg('CUDGHF');
                 console.log('This is my work account!');
             });
+            var index = {
+                initPage: function() {
+                    var self = this;
+                    self.initBtn(self);
+                },
+                initBtn: function(self) {
+                    var english_main_nav = [];
+                    var english_nav_content = [];
+                    var english_masthead_content = [];
+                    var english_about_content = [];
+                    var english_education_content = [];
+                    var english_research_content = [];
+                    var english_tech_content = [];
+                    var english_address_content = [];
+                    var english_email_content = [];
+                    var english_phone_content = [];
+                    var chinese_main_nav = ["sethGu的博客索引页"];
+                    var chinese_nav_content = ["关于","经历","联系方式"];
+                    var chinese_masthead_content = ["一个搞计算机科技的射手男！热爱生活、热爱科技、热爱自由。","开始探索"]
+                    var chinese_about_content = ["关于Seth Gu","在个人博客网站探索更多信息","背景","社交平台"];
+                    var chinese_education_content = ["教育背景","信息系统学士学位","昆士兰科技大学（QUT）","于2018年12月毕业","计算机科学硕士学位","昆士兰大学（UQ）","于2020年12月毕业","计算机科学博士","即将到来...","即将到来..."];
+                    var chinese_research_content = ["研究背景","智慧校园项目","昆士兰大学（UQ）","由PeterWorthy指导","学生成绩预测（推荐算法）","个人所有","个人研究"];
+                    var chinese_tech_content = ["技术背景","计算机科技相关","编程语言： Python, Java, C#, R, Matlab","算法相关、信息检索、云开发","人工智能相关","机器学习 & 数据挖掘相关","深度学习相关"];
+                    var chinese_address_content = ["地址","隐藏"];
+                    var chinese_email_content = ["电子邮件","隐藏"];
+                    var chinese_phone_content = ["电话","隐藏"];
+                    $(".navMain").children(".language_content").each(function(i, item) {
+                        var pag_val = $.trim($(item).text());
+                        english_main_nav.push(pag_val);
+                    });
+                    $(".nav_content").children(".language_content").each(function(i, item) {
+                        var pag_val = $.trim($(item).text());
+                        english_nav_content.push(pag_val);
+                    });
+                    $(".masthead_content").children(".language_content").each(function(i, item) {
+                        var pag_val = $.trim($(item).text());
+                        english_masthead_content.push(pag_val);
+                    });
+                    $(".about_content").children(".language_content").each(function(i, item) {
+                        var pag_val = $.trim($(item).text());
+                        english_about_content.push(pag_val);
+                    });
+                    $(".education_contant").children(".language_content").each(function(i, item) {
+                        var pag_val = $.trim($(item).text());
+                        english_education_content.push(pag_val);
+                    });
+                    $(".research_content").children(".language_content").each(function(i, item) {
+                        var pag_val = $.trim($(item).text());
+                        english_research_content.push(pag_val);
+                    });
+                    $(".tech_content").children(".language_content").each(function(i, item) {
+                        var pag_val = $.trim($(item).text());
+                        english_tech_content.push(pag_val);
+                    });
+                    $(".address_content").children(".language_content").each(function(i, item) {
+                        var pag_val = $.trim($(item).text());
+                        english_address_content.push(pag_val);
+                    });
+                    $(".email_content").children(".language_content").each(function(i, item) {
+                        var pag_val = $.trim($(item).text());
+                        english_email_content.push(pag_val);
+                    });
+                    $(".phone_content").children(".language_content").each(function(i, item) {
+                        var pag_val = $.trim($(item).text());
+                        english_phone_content.push(pag_val);
+                    });
+                    // console.log(english_main_nav);
+                    console.log(english_address_content);
+                    // address_content email_content phone_content
+                    $("#language_control").click(function() {
+                        if ($.trim($(this).text()) == "ENG/中文") {
+                            $(this).text("中文/ENG")
+                            $(".navMain").children(".language_content").each(function(i, item) {
+                                $(item).text(chinese_main_nav[i]);
+                            });
+                            $(".nav_content").children(".language_content").children(".language_content_nav_content").each(function(i, item) {
+                                $(item).text(chinese_nav_content[i]);
+                            });
+                            $(".masthead_content").children(".language_content").each(function(i, item) {
+                                $(item).text(chinese_masthead_content[i]);
+                            });
+                            $(".about_content").children(".language_content").each(function(i, item) {
+                                $(item).text(chinese_about_content[i]);
+                            });
+                            $(".education_contant").children(".language_content").each(function(i, item) {
+                                $(item).text(chinese_education_content[i]);
+                            });
+                            $(".research_content").children(".language_content").each(function(i, item) {
+                                $(item).text(chinese_research_content[i]);
+                            });
+                            $(".tech_content").children(".language_content").each(function(i, item) {
+                                $(item).text(chinese_tech_content[i]);
+                            });
+                            $(".address_content").children(".language_content").each(function(i, item) {
+                                $(item).text(chinese_address_content[i]);
+                            });
+                            $(".email_content").children(".language_content").each(function(i, item) {
+                                $(item).text(chinese_email_content[i]);
+                            });
+                            $(".phone_content").children(".language_content").each(function(i, item) {
+                                $(item).text(chinese_phone_content[i]);
+                            });
+                        } else {
+                            $(this).text("ENG/中文");
+                            $(".navMain").children(".language_content").each(function(i, item) {
+                                $(item).text(english_main_nav[i]);
+                            });
+                            $(".nav_content").children(".language_content").children(".language_content_nav_content").each(function(i, item) {
+                                $(item).text(english_nav_content[i]);
+                            });
+                            $(".masthead_content").children(".language_content").each(function(i, item) {
+                                $(item).text(english_masthead_content[i]);
+                            });
+                            $(".about_content").children(".language_content").each(function(i, item) {
+                                $(item).text(english_about_content[i]);
+                            });
+                            $(".education_contant").children(".language_content").each(function(i, item) {
+                                $(item).text(english_education_content[i]);
+                            });
+                            $(".research_content").children(".language_content").each(function(i, item) {
+                                $(item).text(english_research_content[i]);
+                            });
+                            $(".tech_content").children(".language_content").each(function(i, item) {
+                                $(item).text(english_tech_content[i]);
+                            });
+                            $(".address_content").children(".language_content").each(function(i, item) {
+                                $(item).text(english_address_content[i]);
+                            });
+                            $(".email_content").children(".language_content").each(function(i, item) {
+                                $(item).text(english_email_content[i]);
+                            });
+                            $(".phone_content").children(".language_content").each(function(i, item) {
+                                $(item).text(english_phone_content[i]);
+                            });
+                        }
+                    })
+                }
+            };
+            $(function() {
+                index.initPage();
+            })
         </script>
     </body>
 </html>
