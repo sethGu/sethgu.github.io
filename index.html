@@ -53,7 +53,7 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto about_content">
                         <h2 class="text-white mb-4 language_content"><p class="language_content">About Seth Gu</p></h2>
-                        <p class="text-white-50">
+                        <p class="text-white-50 language_content">
                             技术学习中文笔记，进入
                             <a href="https://blog.csdn.net/qq_39691372">CSDN个人页面</a><br>
                             
@@ -266,7 +266,7 @@
                         var pag_val = $.trim($(item).text());
                         english_masthead_content.push(pag_val);
                     });
-                    $(".about_content").children(".language_content").each(function(i, item) {
+                    $(".about_content").children(".language_content").children(".language_content").each(function(i, item) {
                         var pag_val = $.trim($(item).text());
                         english_about_content.push(pag_val);
                     });
@@ -295,7 +295,7 @@
                         english_phone_content.push(pag_val);
                     });
                     // console.log(english_main_nav);
-                    console.log(english_address_content);
+                    console.log(english_about_content);
                     // address_content email_content phone_content
                     $("#language_control").click(function() {
                         if ($.trim($(this).text()) == "ENG/中文") {
@@ -309,7 +309,7 @@
                             $(".masthead_content").children(".language_content").each(function(i, item) {
                                 $(item).text(chinese_masthead_content[i]);
                             });
-                            $(".about_content").children(".language_content").each(function(i, item) {
+                            $(".about_content").children(".language_content").children(".language_content").each(function(i, item) {
                                 $(item).text(chinese_about_content[i]);
                             });
                             $(".education_contant").children(".language_content").each(function(i, item) {
@@ -341,7 +341,7 @@
                             $(".masthead_content").children(".language_content").each(function(i, item) {
                                 $(item).text(english_masthead_content[i]);
                             });
-                            $(".about_content").children(".language_content").each(function(i, item) {
+                            $(".about_content").children(".language_content").children(".language_content").each(function(i, item) {
                                 $(item).text(english_about_content[i]);
                             });
                             $(".education_contant").children(".language_content").each(function(i, item) {
